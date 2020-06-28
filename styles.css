@@ -1,0 +1,99 @@
+.picture {
+  border-radius: 60%;
+  float: left;
+  padding: 15px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 10px;
+  padding: 0px;
+
+  font-family: 'Bad Script', sans-serif;
+}
+
+.body {
+  background-color: oldlace;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+  background: chocolate;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 40px;
+  color: white;
+  align-items: center;
+
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 20px;
+  align-items: center;
+
+}
+
+.menu a:hover {
+  background-color: white;
+}
+
+.wrapper {
+
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  padding: 10px;
+}
+
+.description {
+    max-width: 200%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  padding: 5px;
+}
+
+.education {
+  width: 50px;
+  height: 50px;
+  margin:10px;
+  padding: 20px;
+}
+
+.left, .right {
+
+  margin: 10px;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left {
+  align-items: center;
+  justify-content: center;
+}
+.right {
+    display: flex;
+  flex-direction: column;
+}
+
+.name {
+    font-family: 'staatliches', sans-serif;
+    margin-bottom: 2px;
+}
+
